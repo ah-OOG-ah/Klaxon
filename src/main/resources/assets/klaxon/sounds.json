@@ -1,0 +1,12 @@
+{
+  "item.hand_klaxon": {
+    "category": "players",
+    "subtitle": "item.hand_klaxon",
+    "sounds": [
+      {
+        "name": "klaxon:item/item.hand_klaxon",
+        "stream": true
+      }
+    ]
+  }
+}
