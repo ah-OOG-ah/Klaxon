@@ -7,6 +7,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.BooleanProperty;
+import net.minecraft.state.IProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.util.Direction;
@@ -22,7 +23,7 @@ import javax.annotation.Nullable;
 
 public class KlaxonBlock extends Block {
 
-    static final BooleanProperty POWERED = BlockStateProperties.POWERED;
+    static final BooleanProperty POWERED = BooleanProperty.create("red");
 
 
     public KlaxonBlock() {
@@ -57,14 +58,10 @@ public class KlaxonBlock extends Block {
     public void neighborChanged(BlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos, boolean isMoving) {
 
         BlockState newBlockState = state.with(POWERED, worldIn.isBlockPowered(pos));
-        System.out.println("\nclear\nclear\nclear\nclear\nclear");
-        System.out.println(newBlockState);
-        System.out.println(state);
-        System.out.println("\nclear\nclear\nclear\nclear\nclear");
 
         if(newBlockState != state) {
             if(worldIn.isRemote()) {
-                worldIn.setBlockState(pos, newBlockState);
+                worldIn.setBlockState(pos, newBlockState, 3);//1, block update, OR 2, send to client
             }
             if (newBlockState.get(POWERED)) {
                 worldIn.playSound(null, pos, SoundInit.KLAXON.get(), SoundCategory.BLOCKS, 1.0f, 1.0f);
