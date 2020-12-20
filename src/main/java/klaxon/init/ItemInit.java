@@ -1,7 +1,7 @@
 package klaxon.init;
 
 import klaxon.Klaxon;
-import klaxon.items.LoudItem;
+import klaxon.items.HandKlaxon;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -25,7 +25,7 @@ public class ItemInit {
             () -> new Item(new Item.Properties().group(ModItemGroup.instance)));
     //initiate klaxon
     public static final RegistryObject<Item> HAND_KLAXON = ITEMS.register("hand_klaxon",
-            () -> new LoudItem(new Item.Properties().group(ModItemGroup.instance).maxStackSize(1)));
+            () -> new HandKlaxon());
 
 
     public static class ModItemGroup extends ItemGroup {

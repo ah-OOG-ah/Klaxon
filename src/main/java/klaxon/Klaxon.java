@@ -1,5 +1,6 @@
 package klaxon;
 
+import klaxon.init.BlockInit;
 import klaxon.init.ItemInit;
 import klaxon.init.SoundInit;
 import net.minecraft.block.Block;
@@ -27,17 +28,21 @@ public class Klaxon
 {
     // Directly reference a log4j logger.
     public static final Logger LOGGER = LogManager.getLogger();
-
+    //Set the mod id so I don't have to remember it
     public static String MOD_ID = "klaxon";
 
+    //Main class, main method, the entry point to the mod
     public Klaxon() {
+        //An event bus that gets events?
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        //Set a listener for when this mod sets up and does client stuff
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::doClientStuff);
 
         SoundInit.SOUNDS.register(modEventBus); //register sounds
         ItemInit.ITEMS.register(modEventBus); //register items
+        BlockInit.BLOCKS.register(modEventBus);//register blocks
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

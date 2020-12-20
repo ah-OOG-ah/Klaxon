@@ -3,5 +3,6 @@
   "item.klaxon.motor": "Motor",
   "item.klaxon.hand_klaxon": "Hand-Cranked Klaxon",
   "item.klaxon.hornbox": "Hornbox",
-  "item.klaxon.cogwheel": "Cogwheel"
+  "item.klaxon.cogwheel": "Cogwheel",
+  "block.klaxon.klaxon_block": "Klaxon"
 }

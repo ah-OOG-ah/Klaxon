@@ -1,5 +1,6 @@
 package klaxon.items;
 
+import klaxon.init.ItemInit;
 import klaxon.init.SoundInit;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -10,10 +11,13 @@ import net.minecraft.world.World;
 import net.minecraft.util.SoundCategory;
 
 
-public class LoudItem extends Item {
+public class HandKlaxon extends Item {
 
-    public LoudItem(Properties properties) {
-        super(properties);
+    public HandKlaxon() {
+        super(new Item.Properties()
+                .group(ItemInit.ModItemGroup.instance)
+                .maxStackSize(1)
+        );
     }
 
     @Override
