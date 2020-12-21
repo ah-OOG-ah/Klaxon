@@ -23,6 +23,8 @@ public class HandKlaxon extends Item {
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
 
+        System.out.println("soundy");
+        System.out.println(SoundInit.HAND_KLAXON.get());
         worldIn.playSound(playerIn, playerIn.serverPosX, playerIn.serverPosY, playerIn.serverPosZ, SoundInit.HAND_KLAXON.get(), SoundCategory.PLAYERS, 1f, 1f);
 
         return super.onItemRightClick(worldIn, playerIn, handIn);
