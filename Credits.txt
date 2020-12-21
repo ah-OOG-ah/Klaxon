@@ -1,0 +1,8 @@
+# Non-exhaustive credits, for my personal reference
+Me (duh)
+Free Software Foundation, GNU, and open source in general, for being amazing
+Forge, for the API
+Mojang & co, for the game
+IntelliJ, for this free editor
+OpenJDK (and Oracle before this account nonsense started), for Java
+UpcraftLP#2401, for pointing out dumbs in KlaxonBlock.class
