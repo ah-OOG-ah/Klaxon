@@ -64,6 +64,8 @@ public class KlaxonBlock extends Block {
                 worldIn.setBlockState(pos, newBlockState, 3);//1, block update, OR 2, send to client
             }
             if (newBlockState.get(POWERED)) {
+                System.out.println("hi");
+                System.out.println(SoundInit.KLAXON.get());
                 worldIn.playSound(null, pos, SoundInit.KLAXON.get(), SoundCategory.BLOCKS, 1.0f, 1.0f);
             }
         }
