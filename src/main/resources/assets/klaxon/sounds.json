@@ -1,10 +1,20 @@
 {
   "item.hand_klaxon": {
     "category": "players",
-    "subtitle": "item.hand_klaxon",
+    "subtitle": "subtitle.klaxon.hand_klaxon",
     "sounds": [
       {
         "name": "klaxon:item/item.hand_klaxon",
+        "stream": true
+      }
+    ]
+  },
+  "block.klaxon_block": {
+    "category": "blocks",
+    "subtitle": "subtitle.klaxon.klaxon_block",
+    "sounds": [
+      {
+        "name": "klaxon:block/block.klaxon_block",
         "stream": true
       }
     ]

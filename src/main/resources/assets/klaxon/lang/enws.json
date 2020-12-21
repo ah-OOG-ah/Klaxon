@@ -1,0 +1,10 @@
+{
+  "block.klaxon.klaxon_block": "Siren",
+  "item.klaxon.cogwheel": "Cog",
+  "item.klaxon.hand_klaxon": "Hand Siren",
+  "item.klaxon.hornbox": "Hornbox",
+  "item.klaxon.motor": "Self-Turner",
+  "itemGroup.klaxon": "Siren",
+  "subtitle.klaxon.hand_klaxon": "Siren sounds",
+  "subtitle.klaxon.klaxon_block": "Siren blareth"
+}

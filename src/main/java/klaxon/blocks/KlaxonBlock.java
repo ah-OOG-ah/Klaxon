@@ -77,7 +77,7 @@ public class KlaxonBlock extends Block {
                 if (newBlockState.get(POWERED)) {
 
                     //Play a sound too
-                    worldIn.playSound(null, pos, SoundInit.KLAXON.get(), SoundCategory.BLOCKS, 1.0f, 1.0f);
+                    worldIn.playSound(null, pos, SoundInit.KLAXON_BLOCK.get(), SoundCategory.BLOCKS, 1.0f, 1.0f);
 
                 }
 

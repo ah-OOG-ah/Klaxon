@@ -1,8 +1,10 @@
 {
-  "itemGroup.klaxon": "Klaxon Items",
-  "item.klaxon.motor": "Motor",
+  "block.klaxon.klaxon_block": "Klaxon",
+  "item.klaxon.cogwheel": "Cogwheel",
   "item.klaxon.hand_klaxon": "Hand-Cranked Klaxon",
   "item.klaxon.hornbox": "Hornbox",
-  "item.klaxon.cogwheel": "Cogwheel",
-  "block.klaxon.klaxon_block": "Klaxon"
+  "item.klaxon.motor": "Motor",
+  "itemGroup.klaxon": "Klaxon",
+  "subtitle.klaxon.hand_klaxon": "Klaxon sounds",
+  "subtitle.klaxon.klaxon_block": "Klaxon blares"
 }
