@@ -1,6 +1,6 @@
-package klaxon.blocks;
+package klaxon.klaxon.blocks;
 
-import klaxon.init.SoundInit;
+import klaxon.klaxon.init.SoundInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;

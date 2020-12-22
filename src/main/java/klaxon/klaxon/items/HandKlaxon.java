@@ -1,7 +1,7 @@
-package klaxon.items;
+package klaxon.klaxon.items;
 
-import klaxon.init.ItemInit;
-import klaxon.init.SoundInit;
+import klaxon.klaxon.init.ItemInit;
+import klaxon.klaxon.init.SoundInit;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

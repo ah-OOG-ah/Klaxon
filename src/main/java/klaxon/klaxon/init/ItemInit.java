@@ -1,7 +1,7 @@
-package klaxon.init;
+package klaxon.klaxon.init;
 
-import klaxon.Klaxon;
-import klaxon.items.HandKlaxon;
+import klaxon.klaxon.Klaxon;
+import klaxon.klaxon.items.HandKlaxon;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -30,7 +30,7 @@ public class ItemInit {
 
     public static class ModItemGroup extends ItemGroup {
 
-        public static final ModItemGroup instance = new ModItemGroup(ItemGroup.GROUPS.length, "klaxon");
+        public static final ModItemGroup instance = new ModItemGroup(ItemGroup.GROUPS.length, "klaxon/klaxon");
 
         private ModItemGroup(int index, String label) {
 

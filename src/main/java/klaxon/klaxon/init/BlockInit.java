@@ -1,12 +1,10 @@
-package klaxon.init;
+package klaxon.klaxon.init;
 
-import klaxon.Klaxon;
-import klaxon.blocks.KlaxonBlock;
+import klaxon.klaxon.Klaxon;
+import klaxon.klaxon.blocks.KlaxonBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;

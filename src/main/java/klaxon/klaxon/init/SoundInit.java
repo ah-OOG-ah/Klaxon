@@ -1,6 +1,6 @@
-package klaxon.init;
+package klaxon.klaxon.init;
 
-import klaxon.Klaxon;
+import klaxon.klaxon.Klaxon;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.RegistryObject;
