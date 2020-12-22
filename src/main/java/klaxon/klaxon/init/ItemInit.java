@@ -30,7 +30,7 @@ public class ItemInit {
 
     public static class ModItemGroup extends ItemGroup {
 
-        public static final ModItemGroup instance = new ModItemGroup(ItemGroup.GROUPS.length, "klaxon/klaxon");
+        public static final ModItemGroup instance = new ModItemGroup(ItemGroup.GROUPS.length, "klaxon");
 
         private ModItemGroup(int index, String label) {
 
