@@ -15,13 +15,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("klaxon/klaxon")
+@Mod("klaxon")
 public class Klaxon
 {
     // Directly reference a log4j logger.
     public static final Logger LOGGER = LogManager.getLogger();
     //Set the mod id so I don't have to remember it
-    public static String MOD_ID = "klaxon/klaxon";
+    public static String MOD_ID = "klaxon";
 
     //Main class, main method, the entry point to the mod
     public Klaxon() {
