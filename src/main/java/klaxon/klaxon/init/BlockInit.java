@@ -19,6 +19,7 @@ public class BlockInit {
 
     //block registry
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Klaxon.MOD_ID);
+
     //initiate klaxon
     public static final RegistryObject<Block> KLAXON_block = BLOCKS.register("klaxon_block",
             () -> new KlaxonBlock());
