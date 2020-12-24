@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "&*&",
-    "#!#",
-    "&/&"
+    "#/#",
+    "&!&"
   ],
   "key": {
     "#": {
@@ -19,7 +19,7 @@
       "item": "minecraft:note_block"
     },
     "*": {
-      "item": "minecraft:bell"
+      "item": "klaxon:hornbox"
     }
   },
   "result": {

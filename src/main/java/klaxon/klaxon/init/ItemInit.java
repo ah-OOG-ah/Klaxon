@@ -26,6 +26,10 @@ public class ItemInit {
     public static final RegistryObject<Item> COGWHEEL = ITEMS.register("cogwheel",
             () -> new Item(new Item.Properties().group(ModItemGroup.instance)));
 
+    //initiate iron bar
+    public static final RegistryObject<Item> IRON_BAR = ITEMS.register("iron_bar",
+            () -> new Item(new Item.Properties().group(ModItemGroup.instance)));
+
     //initiate klaxon
     public static final RegistryObject<Item> HAND_KLAXON = ITEMS.register("hand_klaxon",
             () -> new HandKlaxon());

@@ -39,16 +39,13 @@ public class KlaxonBlock extends Block {
                 this.stateContainer.getBaseState()//empty state container
                         .with(POWERED, false)//add the above-defined property with default value false
         );
-
     }
 
     //Override the default (empty) block state properties
     @Override
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-
         //Add the POWERED property (now keeps track of powered status)
         builder.add(POWERED);
-
     }
 
     //Automatically return false to reduce number of calls
@@ -80,11 +77,7 @@ public class KlaxonBlock extends Block {
                     worldIn.playSound(null, pos, SoundInit.KLAXON_BLOCK.get(), SoundCategory.BLOCKS, 1.0f, 1.0f);
 
                 }
-
             }
-
         }
-
     }
-
 }
