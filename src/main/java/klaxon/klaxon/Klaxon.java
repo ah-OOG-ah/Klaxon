@@ -33,8 +33,8 @@ public class Klaxon
         modEventBus.addListener(this::doClientStuff);
 
         SoundInit.SOUNDS.register(modEventBus); //register sounds
-        ItemInit.ITEMS.register(modEventBus); //register items
         BlockInit.BLOCKS.register(modEventBus);//register blocks
+        ItemInit.ITEMS.register(modEventBus); //register items
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
