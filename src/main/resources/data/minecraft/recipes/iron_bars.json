@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "klaxon:iron_bar"
+    },
+    {
+      "item": "klaxon:iron_bar"
+    },
+    {
+      "item": "klaxon:iron_bar"
+    },
+    {
+      "item": "klaxon:iron_bar"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_bars"
+  }
+}
