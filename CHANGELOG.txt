@@ -1,9 +1,13 @@
-# ONGOING 12/20/2020 Alpha 0.2-dev
+# ONGOING 12/24/2020 Alpha 0.2-dev
 Added:
     Klaxon (block):
         Really buggy sound playing when it gets powered (redstone, not RF/FE/MJ/uI/etc.)
     Changed how custom items (currently just Hand-Cranked Klaxon) are coded;
-    properties are now passed in the custom class, not ItemInit.
+        properties are now passed in the custom class, not ItemInit.
+    Added Iron Bar (Crafting component)
+    Added Motor recipe
+    Modified Klaxon recipe
+    Added EN-WS (Shakespearean) support
 
 # 12/18/2020 Alpha 0.1
 Added:
