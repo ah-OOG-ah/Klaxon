@@ -6,6 +6,6 @@
   "item.klaxon.iron_bar": "Iron Bar",
   "item.klaxon.motor": "Self-Turner",
   "itemGroup.klaxon": "Siren",
-  "subtitle.klaxon.hand_klaxon": "Siren soundeth",
-  "subtitle.klaxon.klaxon_block": "Siren blareth"
+  "klaxon.subtitle.hand_klaxon": "Siren soundeth",
+  "klaxon.subtitle.klaxon_block": "Siren blareth"
 }

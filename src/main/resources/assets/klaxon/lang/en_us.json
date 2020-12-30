@@ -6,6 +6,6 @@
   "item.klaxon.iron_bar": "Iron Bar",
   "item.klaxon.motor": "Motor",
   "itemGroup.klaxon": "Klaxon",
-  "subtitle.klaxon.hand_klaxon": "Klaxon sounds",
-  "subtitle.klaxon.klaxon_block": "Klaxon blares"
+  "klaxon.subtitle.hand_klaxon": "Klaxon sounds",
+  "klaxon.subtitle.klaxon_block": "Klaxon blares"
 }
