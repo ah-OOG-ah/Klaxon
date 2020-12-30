@@ -1,21 +1,21 @@
 {
   "item.hand_klaxon": {
-    "category": "players",
-    "subtitle": "subtitle.klaxon.hand_klaxon",
+    "category": "player",
+    "subtitle": "klaxon.subtitle.hand_klaxon",
     "sounds": [
       {
-        "name": "klaxon:item/item.hand_klaxon",
-        "stream": true
+        "name": "klaxon:item/hand_klaxon",
+        "stream": false
       }
     ]
   },
   "block.klaxon_block": {
-    "category": "blocks",
-    "subtitle": "subtitle.klaxon.klaxon_block",
+    "category": "block",
+    "subtitle": "klaxon.subtitle.klaxon_block",
     "sounds": [
       {
-        "name": "klaxon:block/block.klaxon_block",
-        "stream": true
+        "name": "klaxon:block/klaxon_block",
+        "stream": false
       }
     ]
   }

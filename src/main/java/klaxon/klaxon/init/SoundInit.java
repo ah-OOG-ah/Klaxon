@@ -21,5 +21,4 @@ public class SoundInit {
     public static final RegistryObject<SoundEvent> KLAXON_BLOCK = SOUNDS.register("block.klaxon_block",
             () -> new SoundEvent(new ResourceLocation(Klaxon.MOD_ID, "block.klaxon_block")));
 
-
 }
