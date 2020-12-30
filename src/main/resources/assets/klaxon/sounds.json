@@ -5,7 +5,7 @@
     "sounds": [
       {
         "name": "klaxon:item/hand_klaxon",
-        "stream": false
+        "stream": true
       }
     ]
   },
@@ -15,7 +15,8 @@
     "sounds": [
       {
         "name": "klaxon:block/klaxon_block",
-        "stream": false
+        "stream": false,
+        "attenuation_distance": 64
       }
     ]
   }
