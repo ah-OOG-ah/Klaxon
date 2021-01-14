@@ -15,7 +15,7 @@ apply plugin: 'maven-publish'
 
 version = '0.2'
 group = 'klaxon.klaxon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'klaxon'
+archivesBaseName = 'klaxon-1.15.2-'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 //Print out JVM information so that we know what version is running. Extreamly useful for people to know when helping you.
