@@ -1,11 +1,22 @@
 {
   "item.hand_klaxon": {
-    "category": "players",
-    "subtitle": "item.hand_klaxon",
+    "category": "player",
+    "subtitle": "klaxon.subtitle.hand_klaxon",
     "sounds": [
       {
-        "name": "klaxon:item/item.hand_klaxon",
+        "name": "klaxon:item/hand_klaxon",
         "stream": true
+      }
+    ]
+  },
+  "block.klaxon_block": {
+    "category": "block",
+    "subtitle": "klaxon.subtitle.klaxon_block",
+    "sounds": [
+      {
+        "name": "klaxon:block/klaxon_block",
+        "stream": false,
+        "attenuation_distance": 32
       }
     ]
   }
