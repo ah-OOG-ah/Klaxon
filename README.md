@@ -23,4 +23,4 @@ The mod .jar will be in `<repo folder>/build/libs`
 I don't use it, so correct me if this doesn't work, but the steps should be the same, except you run `genEclipseRuns` instead of `genIntellijRuns`
 
 # License
-This is under the GNU GPLv3. Feel free to use this in modpacks under the GPLv3 (or a later version), but please notify me.
+This is under the GNU GPLv3. Feel free to include this in modpacks or fork it, but please notify me and give credit. Additionally, the modpack/custom fork must also use the GNU GPLv3 or later.
