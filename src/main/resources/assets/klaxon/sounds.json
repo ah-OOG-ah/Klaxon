@@ -16,7 +16,7 @@
       {
         "name": "klaxon:block/klaxon_block",
         "stream": false,
-        "attenuation_distance": 64
+        "attenuation_distance": 32
       }
     ]
   }

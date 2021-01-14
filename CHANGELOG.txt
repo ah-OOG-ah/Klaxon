@@ -1,18 +1,23 @@
 # ONGOING 12/24/2020 Alpha 0.2-dev
 Added:
+    Building instructions to the README
     Klaxon (block):
-        Really buggy sound playing when it gets powered (redstone, not RF/FE/MJ/uI/etc.)
+        Plays a sound with a range of 32 blocks when activated with redstone.
     Changed how custom items (currently just Hand-Cranked Klaxon) are coded;
         properties are now passed in the custom class, not ItemInit.
-    Added Iron Bar (Crafting component)
-    Added Motor recipe
-    Modified Klaxon recipe
-    Added EN-WS (Shakespearean) support
+    Iron Bar (Crafting component),
+        Recipe.
+    Motor recipe.
+    Bell recipe (The vanilla minecraft bell).
+    ENWS (Shakespearean) support.
+
+Modified:
+    Klaxon recipe.
 
 # 12/18/2020 Alpha 0.1
 Added:
-    Motor (Unused),
-    Cogwheel (Crafting component),
-    Hornbox (Crafting component),
+    Motor (Unused).
+    Cogwheel (Crafting component).
+    Hornbox (Crafting component).
     Hand-Cranked Klaxon:
-        Makes klaxon noise when you right-click it, does not stack, does not take damage
+        Makes klaxon noise when you right-click it, does not stack, does not take damage.
