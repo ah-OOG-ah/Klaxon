@@ -1,5 +1,6 @@
 # ONGOING 12/24/2020 Alpha 0.2-dev
 Added:
+    Some Git management scripts
     Building instructions to the README
     Klaxon (block):
         Plays a sound with a range of 32 blocks when activated with redstone.
