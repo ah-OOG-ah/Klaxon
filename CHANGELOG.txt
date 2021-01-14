@@ -1,5 +1,6 @@
 # ONGOING 12/24/2020 Alpha 0.2-dev
 Added:
+    Another sound (block.klaxon_block)
     Some Git management scripts
     Building instructions to the README
     Klaxon (block):
