@@ -1,4 +1,4 @@
-# ONGOING 12/24/2020 Alpha 0.2-dev
+# 1/14/2021 0.2 Alpha
 Added:
     Another sound (block.klaxon_block)
     Some Git management scripts
