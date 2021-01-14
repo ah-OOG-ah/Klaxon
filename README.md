@@ -1,4 +1,4 @@
-<img src="https://cf.way2muchnoise.eu/versions/klaxon.svg"></img><img src="https://cf.way2muchnoise.eu/full_klaxon_downloads.svg"></img>
+<img src="http://cf.way2muchnoise.eu/versions/klaxon.svg"></img><img src="http://cf.way2muchnoise.eu/full_klaxon_downloads.svg"></img>
 # Klaxon
 Adds klaxons, air-raid sirens, and other annoying blocks and items to Minecraft! Because we all needed that, right?
 
