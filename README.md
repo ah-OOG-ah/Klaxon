@@ -2,6 +2,9 @@
 # Klaxon
 Adds klaxons, air-raid sirens, and other annoying blocks and items to Minecraft! Because we all needed that, right?
 
+# About 0.5-alpha
+This project will never have a 0.5-alpha, due to me accidentally labeling 0.3-alpha as 0.5-alpha and being unable to undo it.
+
 # Building
 
 ## IntelliJ
