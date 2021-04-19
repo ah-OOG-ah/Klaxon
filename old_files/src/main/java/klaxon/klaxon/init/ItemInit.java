@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemInit {
 
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Klaxon.MOD_ID);//DeferredRegister<Item>.create(ForgeRegistries.ITEMS, Klaxon.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Klaxon.MOD_ID);
 
     //initiate motor
     public static final RegistryObject<Item> MOTOR = ITEMS.register("motor",
@@ -45,7 +45,7 @@ public class ItemInit {
         @Override
         public ItemStack createIcon() {
 
-            return new ItemStack(BlockInit.KLAXON_BLOCK.get());
+            return new ItemStack(BlockInit.KLAXON_block.get());
 
         }
     }

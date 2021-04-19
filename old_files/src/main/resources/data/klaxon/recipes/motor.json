@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " &#",
+    "&#&",
+    " &!"
+  ],
+  "key": {
+    "#": {
+      "item": "klaxon:iron_bar"
+    },
+    "&": {
+      "item": "minecraft:iron_ingot"
+    },
+    "!": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "klaxon:motor"
+  }
+}

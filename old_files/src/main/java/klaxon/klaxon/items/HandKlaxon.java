@@ -15,7 +15,7 @@ import net.minecraft.util.SoundCategory;
 public class HandKlaxon extends Item {
 
     public HandKlaxon() {
-        super(new Properties()
+        super(new Item.Properties()
                 .group(ItemInit.ModItemGroup.instance)
                 .maxStackSize(1)
         );
