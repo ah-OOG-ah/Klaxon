@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "&#&",
+    "&/&",
+    "&/&"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "/": {
+      "item": "klaxon:cogwheel"
+    },
+    "&": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "klaxon:hornbox"
+  }
+}

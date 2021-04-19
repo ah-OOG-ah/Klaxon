@@ -10,7 +10,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class SoundInit {
 
     //Make a sound deferred registry
-    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Klaxon.MOD_ID);
+    public static final DeferredRegister<SoundEvent> SOUNDS = new DeferredRegister<>(ForgeRegistries.SOUND_EVENTS,
+            Klaxon.MOD_ID);
 
     //Add hand klaxon sound
     public static final RegistryObject<SoundEvent> HAND_KLAXON = SOUNDS.register("item.hand_klaxon",

@@ -18,10 +18,10 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class BlockInit {
 
     //block registry
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Klaxon.MOD_ID);//new DeferredRegister<>(ForgeRegistries.BLOCKS, Klaxon.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Klaxon.MOD_ID);
 
     //initiate klaxon
-    public static final RegistryObject<Block> KLAXON_BLOCK = BLOCKS.register("klaxon_block",
+    public static final RegistryObject<Block> KLAXON_block = BLOCKS.register("klaxon_block",
             () -> new KlaxonBlock());
 
     //Subscribe to more events?

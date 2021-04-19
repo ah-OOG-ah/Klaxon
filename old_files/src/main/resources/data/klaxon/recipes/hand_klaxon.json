@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    " & ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "&": {
+      "item": "klaxon:hornbox"
+    }
+  },
+  "result": {
+    "item": "klaxon:hand_klaxon"
+  }
+}

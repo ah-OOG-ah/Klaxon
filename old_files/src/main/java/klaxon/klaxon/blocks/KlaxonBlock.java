@@ -27,7 +27,7 @@ public class KlaxonBlock extends Block {
     public KlaxonBlock() {
 
         //Add properties (regular, not blockstate)
-        super(Properties.create(Material.WOOD)
+        super(Block.Properties.create(Material.WOOD)
                 .sound(SoundType.WOOD)
                 .hardnessAndResistance(0.8f, 6f)
                 .harvestLevel(0)
