@@ -1,32 +1,38 @@
 package klaxon.klaxon.items;
 //
 
+import klaxon.klaxon.Klaxon;
 import klaxon.klaxon.init.ItemInit;
 import klaxon.klaxon.init.SoundInit;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.world.World;
-import net.minecraft.util.SoundCategory;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
 
-
+//As per usual, extend Item
 public class HandKlaxon extends Item {
 
+    //Put it in the proper tab and set stack size
     public HandKlaxon() {
         super(new Properties()
-                .group(ItemInit.ModItemGroup.instance)
-                .maxStackSize(1)
+                .tab(ItemInit.ModCreativeModeTab.instance)
+                .stacksTo(1)
         );
     }
 
+    //When used...
     @Override
-    public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
+    public InteractionResultHolder<ItemStack> use(Level levelIn, Player playerIn, InteractionHand handIn) {
 
-        worldIn.playSound(playerIn, playerIn.getPosition(), SoundInit.HAND_KLAXON.get(), SoundCategory.PLAYERS, 1f, 1f);
+        //Make some noise!
+        levelIn.playSound(null, playerIn, SoundInit.HAND_KLAXON.get(), SoundSource.PLAYERS, 1f, 1f);
 
-        return super.onItemRightClick(worldIn, playerIn, handIn);
+        //Call original item function, so as not to break other code dependent on it
+        return super.use(levelIn, playerIn, handIn);
     }
-
 }

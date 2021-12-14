@@ -3,12 +3,12 @@ package klaxon.klaxon.init;
 import klaxon.klaxon.Klaxon;
 import klaxon.klaxon.blocks.KlaxonBlock;
 import klaxon.klaxon.items.HandKlaxon;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.RegistryObject;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ItemInit {
 
@@ -16,37 +16,37 @@ public class ItemInit {
 
     //initiate motor
     public static final RegistryObject<Item> MOTOR = ITEMS.register("motor",
-        () -> new Item(new Item.Properties().group(ModItemGroup.instance)));
+        () -> new Item(new Item.Properties().tab(ModCreativeModeTab.instance)));
 
     //initiate hornbox
     public static final RegistryObject<Item> HORNBOX = ITEMS.register("hornbox",
-            () -> new Item(new Item.Properties().group(ModItemGroup.instance)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.instance)));
 
     //initiate cogwheel
     public static final RegistryObject<Item> COGWHEEL = ITEMS.register("cogwheel",
-            () -> new Item(new Item.Properties().group(ModItemGroup.instance)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.instance)));
 
     //initiate iron bar
     public static final RegistryObject<Item> IRON_BAR = ITEMS.register("iron_bar",
-            () -> new Item(new Item.Properties().group(ModItemGroup.instance)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.instance)));
 
     //initiate klaxon
     public static final RegistryObject<Item> HAND_KLAXON = ITEMS.register("hand_klaxon",
             () -> new HandKlaxon());
 
-    public static class ModItemGroup extends ItemGroup {
+    //Create an ItemGroup
+    public static class ModCreativeModeTab extends CreativeModeTab {
 
-        public static final ModItemGroup instance = new ModItemGroup(ItemGroup.GROUPS.length, "klaxon");
+        public static final ModCreativeModeTab instance = new ModCreativeModeTab(CreativeModeTab.getGroupCountSafe(), "klaxon");
 
-        private ModItemGroup(int index, String label) {
+        private ModCreativeModeTab(int index, String label) {
             super(index, label);
         }
 
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
 
             return new ItemStack(BlockInit.KLAXON_BLOCK.get());
-
         }
     }
 
